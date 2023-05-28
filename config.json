@@ -1,0 +1,11 @@
+{
+    "user_id": 7559261,
+    "volume_tik_status": true,
+    "volume_tik_value": 200,
+    "volume_correct_status": true,
+    "volume_correct_value": 54,
+    "volume_mistake_status": true,
+    "volume_mistake_value": 49,
+    "volume_button_status": false,
+    "volume_button_value": 39
+}

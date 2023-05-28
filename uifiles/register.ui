@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Registration</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+background: url(background5.png);
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>361</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Rockin' Record&quot;;
+ font-size: 35px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;</string>
+   </property>
+   <property name="text">
+    <string>РЕГИСТРАЦИЯ
+ВХОД</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>371</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+background: transparent;
+border: none;
+}
+QLabel {
+font: 10pt &quot;Rockin' Record&quot;;
+ font-size: 40px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;
+}
+QLineEdit, QPushButton {
+ border: 3px solid #35366c;
+font: 8pt &quot;Rockin' Record&quot;;
+ font-size: 30px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;
+}
+QPushButton:hover {
+ color: #575772;
+ background: #16162f
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Rockin' Record&quot;;
+ font-size: 25px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;</string>
+    </property>
+    <property name="text">
+     <string>ЛОГИН</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Rockin' Record&quot;;
+ font-size: 25px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;</string>
+    </property>
+    <property name="text">
+     <string>ПАРОЛЬ</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>70</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>130</y>
+      <width>271</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ВХОД</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

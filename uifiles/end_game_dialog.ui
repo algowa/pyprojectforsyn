@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Конец игры</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../pen.ico</normaloff>../pen.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+background: url(pictures/background5.png);
+}</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>381</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+border: none;
+background: transparent;
+}
+QLabel {
+font: 10pt &quot;Rockin' Record&quot;;
+ font-size: 35px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>правильно: 0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Не правильно: 0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ВРЕМЯ: 00:00:00</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+background: transparent;
+border: none;
+}
+QLabel {
+font: 10pt &quot;Rockin' Record&quot;;
+ font-size: 40px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>9</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ИГРА ОКОНЧЕНА</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

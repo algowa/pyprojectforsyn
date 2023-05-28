@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Параметры</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../pen.ico</normaloff>../pen.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+background-image: url(pictures/background5.png)
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>441</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockin' Record</family>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Rockin' Record&quot;;
+ font-size: 38px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;</string>
+    </property>
+    <property name="text">
+     <string>Параметры</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>781</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox {
+background: transparent;
+border: none;
+}
+QLabel {
+font: 10pt &quot;Rockin' Record&quot;;
+ font-size: 25px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;
+}
+QComboBox, QCheckBox {
+ border: 3px solid #35366c;
+font: 10pt &quot;Rockin' Record&quot;;
+ font-size: 25px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;
+}
+QPushButton {
+ border: 3px solid #35366c;
+font: 8pt &quot;Rockin' Record&quot;;
+ font-size: 25px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;
+}
+QPushButton:hover {
+ color: #575772;
+ background: #16162f
+}</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>311</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rockin' Record</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>звук тиканья часов</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QSlider" name="horizontalSlider">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>41</y>
+       <width>311</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <number>200</number>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+     <property name="tracking">
+      <bool>false</bool>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>41</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>on</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>off</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>120</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>on</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>off</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QSlider" name="horizontalSlider_2">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>120</y>
+       <width>311</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <number>200</number>
+     </property>
+     <property name="tracking">
+      <bool>false</bool>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>99</y>
+       <width>311</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rockin' Record</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>звук при правильном
+ответе</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_3">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>200</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>on</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>off</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>179</y>
+       <width>311</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rockin' Record</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>звук при ошибке</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QSlider" name="horizontalSlider_3">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>200</y>
+       <width>311</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <number>200</number>
+     </property>
+     <property name="tracking">
+      <bool>false</bool>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_4">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>281</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>on</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>off</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>260</y>
+       <width>311</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rockin' Record</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>звук кнопок</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QSlider" name="horizontalSlider_4">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>281</y>
+       <width>311</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <number>200</number>
+     </property>
+     <property name="tracking">
+      <bool>false</bool>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

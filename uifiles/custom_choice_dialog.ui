@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton, QComboBox {
+ border: 3px solid #35366c;
+font: 8pt &quot;Rockin' Record&quot;;
+ font-size: 30px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;
+}
+QPushButton:hover {
+ color: #575772;
+ background: #16162f
+}
+QLabel {
+font: 10pt &quot;Rockin' Record&quot;;
+ font-size: 35px;
+ color: #35366c;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+background: transparent;
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>271</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Количество
+примеров</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>100</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <item>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>20</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>25</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>40</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ВЫБРАТЬ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>210</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ОТМЕНА</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
